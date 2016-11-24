@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #little87,#little87s{
+            background-color: #FFFFFF;
+            font-size: 30px;
+            text-align:center;
+        }
+    </style>
+
+    <head>
+        <meta charset="utf-8">
+        <title>exercise3</title>
+	    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	    <script>
+	        $(document).ready(function(){
+
+                $("#everyone").hide()
+                $("#personal").hide()
+                $("#little87s").click(function(){
+                    $("#everyone").slideToggle()
+                });
+                $("#little87").click(function(){
+                    $("#personal").fadeToggle("slow");
+                });
+
+	        });
+	    </script>
+    </head>
+    <body>
+        <br>
+            <div id="little87s"><strong>小白癡出遊(click me)</div><br>
+        <p id="everyone" align="center">
+            <img src="picture.jpg" alt="小白癡們出遊" width="90%" height="50%">
+        </p>
+        <br>
+            <div id="little87"><strong>小白癡(click me)</div><br>
+        <p id="personal" align="center" >
+            <img src="pi1.jpg" alt="王" width="30%" height="10%">
+            <img src="pi2.jpg" alt="江" width="30%" height="10%">
+            <img src="pi3.jpg" alt="貝" width="30%" height="10%">
+            <img src="pi4.jpg" alt="泡" width="30%" height="10%">
+            <img src="pi5.jpg" alt="逼" width="30%" height="10%">
+            <img src="pi6.jpg" alt="星" width="30%" height="10%">
+            <img src="pi7.jpg" alt="茜" width="30%" height="10%">
+            <img src="pi8.jpg" alt="薇" width="30%" height="10%">
+            <img src="pi9.jpg" alt="班" width="30%" height="10%">
+        </p>
+<br><br><br>
+    </body>
+</html>
